@@ -9,7 +9,7 @@ The project consists of a pretty simple *To Do application*, with a frontend, it
 ## What you need to do
 
 - Fork the project in your Github account
-- Choose at least 5 of the tasks detailed in the section below
+- Choose at least 4 of the tasks detailed in the section below
 - Open a Pull Request for each of the tasks you solve
 
 ## Requisites
