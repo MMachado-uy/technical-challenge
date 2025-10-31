@@ -1,0 +1,36 @@
+.action-button-wrapper {
+    margin-top: 1rem;
+
+    .action-button {
+        padding: 0.6rem 1.2rem;
+        background-color: #95a5a6;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.2s;
+
+        &:hover:not(:disabled) {
+            background-color: #7f8c8d;
+        }
+
+        &:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        &.pending {
+            background-color: #f39c12;
+            cursor: wait;
+        }
+    }
+
+    .action-error {
+        display: block;
+        color: #e74c3c;
+        font-size: 0.85rem;
+        margin-top: 0.5rem;
+    }
+}
+

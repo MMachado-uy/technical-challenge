@@ -1,0 +1,12 @@
+.input-with-ref {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+
+    &:focus {
+        outline: none;
+        border-color: #3498db;
+    }
+}
+

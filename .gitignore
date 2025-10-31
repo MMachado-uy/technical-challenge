@@ -1,0 +1,43 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build folders
+/app/build
+/app/dist
+
+# Coverage directory
+/coverage
+
+# Cache
+.npm
+.eslintcache
+.cache
+.parcel-cache
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.thumbs
+Thumbs.db 
